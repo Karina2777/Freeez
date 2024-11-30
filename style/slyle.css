@@ -17,6 +17,10 @@ body{
     animation-delay: 5s;
 } 
 
+.sliders:hover{
+    animation-play-state:paused;
+ }
+
  .sliders article:nth-child(1){
     left: 0px;
  }
@@ -87,7 +91,4 @@ body{
     100%{
         left: -2280px;
     }
- }
- .sliders:hover{
-    animation-play-state:paused;
  }
